@@ -8,13 +8,21 @@ Instalacion del sistema operativo open source linux
 ## 1. Marco teorico
 ## 2. Desarrollo e instalacion
    
-   El proceso de instalacion del sistema operativo de linux empezo escogiendo el "sabor" de linux a instalar. Por recomendacion del profesor y al ser la primera vez instalando un SO, se decidio por linux mint y la version Cinnamon. 
+El proceso de instalacion del sistema operativo de linux empezo escogiendo el "sabor" de linux a instalar. Por recomendacion del profesor y al ser la primera vez instalando un SO, se decidio por linux mint y la version Cinnamon. 
    
 ![ejemplo1](figs/uno.png)
 
-   
-   
-   la version previamente dicha
+La version previamente dicha al terminarse de descargar, se intalara mediante una usb que debe ser de minimo 4 gb. Este proceso se lleva a cabo gracias al uso de un software llamado Rufus. Este nos permite crear unidades de USB arrancables facilmente.
+
+![ejemplo2](figs/dos.png)
+
+Ya descargado Rufus, se conecta la usb y procedemos a configurar la ventana con las opciones definidas en Rufus, como se muestra en la siguiente imagen (donde la eleccion de arranque del sistema debe ser la version de linux instalada previamente). Es importante recalcar, que todo lo que haya en la usb se borarra al continuar con el formateo de esta para el proceso, por lo que se debe hacer una copia si los documentos contenidos en la usb son de importancia o hacer uso de una usb totalmente nueva.
+
+![ejemplo3](figs/tres.png)
+
+Ahora, procedemos a retirar la usb y a realizar la particion del disco 
+
+
 
 ## 4. Problemas relazionados con el proceso
 ## 5. Ventajas del SO linux
