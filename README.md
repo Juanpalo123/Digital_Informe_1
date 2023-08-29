@@ -6,6 +6,9 @@ Instalacion del sistema operativo open source linux
 ## Informe del laboratorio 
 
 ## 1. Marco teorico
+
+* Linux: Linux es uno de los tantos flavors de Unix. Se trata de un sistema operativo de 32 bits de libre distribución, desarrollado originalmente por Linus Torvalds, un estudiante de la universidad finlandesa de Helsinki, quien, en 1991, se abocó a la tarea de reemplazar a Minix, un clon de Unix de pequeñas proporciones y finalidad académica desarrollado años antes por Andrew Tannenbaun [1]. 
+
 ## 2. Desarrollo e instalacion
    
 El proceso de instalacion del sistema operativo de linux empezo escogiendo el "sabor" de linux a instalar. Por recomendacion del profesor y al ser la primera vez instalando un SO, se decidio por linux mint y la version Cinnamon. 
@@ -56,19 +59,26 @@ Y el linux listo para usar.
 
 ![ejemplo12](figs/doce.png)
 
+## 3. Problemas relacionados con el proceso
 
+Algunos problemas relacionados a la instalacion de linux fueron:
 
+* Problemas al hacer la configuracion inicial del linux por el cifrado de documentos en windows 11 llamado Bitlocker (Se tuvo que desabilitar la opcion y reiniciar el dispositivo).
+* Problemas con la configuracion preestablecida del windows.
+* Problemas al iniciar por primeras veces el linux.
 
+## 4. Ventajas del SO linux
 
+* Linux es robusto, estable y rápido: Ideal para servidores y aplicaciones distribuidas.
+* Linux es open source, esto implica no sólo la gratuidad del software, sino también que es modificable. Tiene una gran cantidad de aplicaciones libres en Internet. 
+* Las vulnerabilidades son detectadas y corregidas más rápidamente que en cualquier otro SO.
+  
+## 5. Conclusiones
 
+Linux es una herramienta sumamente poderosa que nos permite trabajar y desarrollar todo tipo de actividades. Conlleva una filosofia propia, no solo para el desarrollo y que basta con descargarla para ver el gran potencial de su uso.
 
+## 6. Bibliografia
 
-
-
-
-
-## 4. Problemas relazionados con el proceso
-## 5. Ventajas del SO linux
-## 6. Conclusiones
+* [1] Obtenido de https://www.investigacion.frc.utn.edu.ar/labsis/publicaciones/queeslinux/queeslinux.html
 
 
