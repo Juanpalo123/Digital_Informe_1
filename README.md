@@ -1,7 +1,12 @@
 # Lab 01 - INFORME INSTALACION SO LINUX
 
+Profesor Magistral: Diego Alexander Tibaduiza Burgos - Grupo: 3
+
+Profesor Laboratorio: Johnny Germán Cubides Castro 
+
+Estudiante: _**JUAN PABLO LOPEZ MARTINEZ**_
+
 Instalacion del sistema operativo open source linux 
-* _**JUAN PABLO LOPEZ MARTINEZ**_
 
 ## Informe del laboratorio 
 
