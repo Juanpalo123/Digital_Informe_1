@@ -59,7 +59,51 @@ Y el linux listo para usar.
 
 ![ejemplo12](figs/doce.png)
 
-## 3. Problemas relacionados con el proceso
+## 3. Instalacion de herramientas complementarias
+
+Luego de la correcta instalacion de linux, se instalaron los programas correspondientes a utilizar durante todo el semestre. Los cuales fueron, los siguientes, indicados por el profesor del laboratorio:
+
+* Miniconda: La instalacion de miniconda en linux se realizo con los siguientes comandos
+  ```
+  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  
+  bash Miniconda3-latest-Linux-x86_64.sh
+  ```
+  
+* Gtkwave: La instalacion de gtkwave en linux se realizo con el siguiente comando
+   ```
+  conda install -c conda-forge gtkwave
+   ```
+
+* Graphviz: La instalacion de graphviz en linux se realizo con el siguiente comando
+   ```
+  conda install -c conda-forge graphviz
+  ```
+   
+* Netlistsvg: La instalacion de netlistsvg en linux se realizo con el siguiente comando
+   ```
+  conda install -c symbiflow netlistsvg
+  ```
+   
+* Yosys y Iverilog: La instalacion de Iverilog y de yosys en linux se realizo con unos comandos propuestos por el profe, ya que en mi caso, los comandos iniciales propuestos para la terminal no estaban funcionando, tal vez por la version de conda. Estos fueron:
+   ```
+   (base) $ conda update conda # Actualizar conda
+   (base) $ conda create -n digital python=3.10 # Configurar digital como variable de entorno y python3.10
+   (base) $ conda activate digital  # Activar la variable de entorno de conda denominada digital
+   (digital) $ python --version # Debe presentarse la version 3.10 para poder continuar
+   (digital) $ conda install -c "litex-hub" yosys
+   (digital) $ conda install -c "litex-hub" iverilog
+   ```
+  
+> [NOTA]
+> La instalacion de yosys e iverilog fue, en mi caso, bastante problematica, por lo que esto depende mucho de las versiones instaladas de conda, sabor de linux, demas.
+  
+* Digital: La instalacion de digital en linux se realizo con el siguiente comando y descargando este, del repositorio proporcionado por el profe. Esta sera la herramienta a trabajar durante todo el semestre
+```
+sudo apt install openjdk-11-jdk
+```
+
+## 4. Problemas relacionados con el proceso
 
 Algunos problemas relacionados a la instalacion de linux fueron:
 
@@ -67,17 +111,17 @@ Algunos problemas relacionados a la instalacion de linux fueron:
 * Problemas con la configuracion preestablecida del windows.
 * Problemas al iniciar por primeras veces el linux.
 
-## 4. Ventajas del SO linux
+## 5. Ventajas del SO linux
 
 * Linux es robusto, estable y rápido: Ideal para servidores y aplicaciones distribuidas.
 * Linux es open source, esto implica no sólo la gratuidad del software, sino también que es modificable. Tiene una gran cantidad de aplicaciones libres en Internet. 
 * Las vulnerabilidades son detectadas y corregidas más rápidamente que en cualquier otro SO.
   
-## 5. Conclusiones
+## 6. Conclusiones
 
 Linux es una herramienta sumamente poderosa que nos permite trabajar y desarrollar todo tipo de actividades. Conlleva una filosofia propia, no solo para el desarrollo y que basta con descargarla para ver el gran potencial de su uso.
 
-## 6. Bibliografia
+## 7. Bibliografia
 
 * [1] Obtenido de https://www.investigacion.frc.utn.edu.ar/labsis/publicaciones/queeslinux/queeslinux.html
 
